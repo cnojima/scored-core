@@ -5,6 +5,10 @@ import './App.css';
 
 import TargetBase from '@scored/component-target';
 
+
+console.log(TargetBase);
+
+
 class App extends Component {
   render() {
     return (
