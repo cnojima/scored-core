@@ -3,18 +3,15 @@ import logo from './logo.svg';
 import './App.css';
 
 
-import TargetBase from '@scored/component-target';
+import TargetBase from './components/target/target-base';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <TargetBase />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
+        <TargetBase />
           <a
             className="App-link"
             href="https://reactjs.org"
